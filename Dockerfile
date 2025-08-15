@@ -1,6 +1,6 @@
 FROM alpine:3.22.1
 
-RUN apk add --no-cache bird=3.1.2-r0
+RUN apk add --no-cache bird=3.1.2-r0 bird_exporter=1.4.3-r12
 
 RUN mkdir /etc/bird
 
